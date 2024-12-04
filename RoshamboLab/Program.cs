@@ -64,7 +64,7 @@ while (keepPlaying)
     }
 
     Console.Clear();
-    Console.WriteLine("Press any key to roshambo will all your might!");
+    Console.WriteLine("Press any key to roshambo with all your might!");
     Console.ReadKey();
     Console.Clear();
 
