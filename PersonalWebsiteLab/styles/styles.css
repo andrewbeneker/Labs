@@ -1,0 +1,63 @@
+/*
+selector {
+    property: value;
+
+    property: value;
+}
+*/
+h1{
+    color: rgb(10, 1, 19);
+    background-color: rgb(215, 222, 160);
+    font-style: initial;
+    font-size: 28px;
+}
+
+p{
+    font-style:normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 600px;
+}
+
+body{
+    background-color: beige;
+    
+}
+
+header{
+    background-color: rgb(255, 252, 196);
+    position: fixed; top: 0; right: 0;
+}
+
+footer{
+    
+    background-color: darkseagreen;
+}
+
+table{
+    background-color: rgb(206, 244, 231);
+}
+
+nav > li {
+    border-color: black;
+    background-color: rgb(242, 195, 168);
+    border-width: 3px;
+    border-style:double;
+    width: 100px;
+}
+
+/* apply to div */
+.section-content{
+    border: 2px;
+    border-style: dotted;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(228, 213, 230);
+}
+
+.section-content2{
+    border: 2px;
+    border-style:dashed;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(199, 219, 230)
+}
