@@ -15,7 +15,7 @@ h1{
 p{
     font-style:normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 body{
@@ -37,11 +37,20 @@ table{
     background-color: rgb(206, 244, 231);
 }
 
+nav{
+    border-style: double;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 1px;
+    background-color:lavender
+}
+
 nav > li {
     border-color: black;
-    background-color: rgb(242, 195, 168);
+    background-color: rgb(174, 230, 186);
     border-width: 3px;
     border-style:double;
+    border-radius: 20px;
     width: 100px;
 }
 
@@ -60,4 +69,22 @@ nav > li {
     padding-left: 10px;
     padding-bottom: 10px;
     background-color:rgb(199, 219, 230)
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.inline-block {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 3px;
+    border-style: double;
+    border-radius: 10px;
+    background-color: rgb(135, 207, 249);
+    padding: 5px
 }
