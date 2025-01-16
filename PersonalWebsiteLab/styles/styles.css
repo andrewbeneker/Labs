@@ -12,6 +12,11 @@ h1{
     font-size: 28px;
 }
 
+h3{
+    font-size: 22px;
+    
+}
+
 p{
     font-style:normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -19,12 +24,12 @@ p{
 }
 
 body{
-    background-color: beige;
+    background-color: rgb(248, 207, 132);
     
 }
 
 header{
-    background-color: rgb(255, 252, 196);
+    background-color: transparent;
     position: fixed; top: 0; right: 0;
 }
 
@@ -42,7 +47,7 @@ nav{
     border-radius: 20px;
     padding: 10px;
     padding-top: 1px;
-    background-color:lavender
+    background-color:rgb(221, 186, 218)
 }
 
 nav > li {
@@ -60,7 +65,7 @@ nav > li {
     border-style: dotted;
     padding-left: 10px;
     padding-bottom: 10px;
-    background-color: rgb(228, 213, 230);
+    background-color: rgb(185, 149, 190);
 }
 
 .section-content2{
@@ -85,6 +90,6 @@ nav > li {
     border: 3px;
     border-style: double;
     border-radius: 10px;
-    background-color: rgb(135, 207, 249);
+    background-color: rgb(207, 231, 181);
     padding: 5px
 }
